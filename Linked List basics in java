@@ -25,6 +25,8 @@ class Main{
         n.next=head;
         return n;
     }
+    
+    
     public static Node addAt(Node head,int val,int index){
         if(head==null){
             head= new Node(val);
